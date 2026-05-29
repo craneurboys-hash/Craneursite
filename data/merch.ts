@@ -52,8 +52,7 @@ export const merchProducts: MerchProduct[] = [
     description: "Piece capsule a verrouiller.",
     details: ["Coupe a definir", "Coloris a definir", "Edition limitee"],
     shippingDelay: "Expedition manuelle apres production.",
-    image:
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1200&q=85",
+    image: "/da/tshirt-live-boiler.png",
     sizes: defaultSizes
   }
 ];
