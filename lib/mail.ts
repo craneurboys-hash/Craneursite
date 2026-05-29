@@ -131,32 +131,4 @@ export async function sendOrderEmails({
     ].join("\n")
   });
 
-  if (!resolvedCustomerEmail) {
-    return;
-  }
-
-  await trySendEmail({
-    apiKey,
-    from,
-    to: resolvedCustomerEmail,
-    subject: "Confirmation de commande CRANEURBOYS",
-    text: [
-      "Merci pour ta commande CRANEURBOYS.",
-      "",
-      "On a bien recu ton paiement. Voici le recapitulatif :",
-      "",
-      `Commande: ${orderId}`,
-      "",
-      "Articles:",
-      orderLines,
-      "",
-      "Livraison:",
-      shippingLine,
-      "",
-      "Adresse:",
-      addressLines,
-      "",
-      "Pour toute question, reponds a ce mail ou contacte craneurboys@gmail.com."
-    ].join("\n")
-  });
 }
