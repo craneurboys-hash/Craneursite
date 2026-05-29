@@ -6,8 +6,8 @@ const newsSlides = [
   {
     id: "event",
     eyebrow: "Futur event",
-    title: "R&B",
-    image: "/da/r-and-b.jpeg",
+    title: "CRANEURBOYS INVITE",
+    image: "/da/export-insta-v5.png",
     href: "#events"
   },
   {
